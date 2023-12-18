@@ -3,9 +3,23 @@
 ## Premise
 Guide on using the iOS shortcut automation feature to capture transactions
 
-iOS 17.2 introduced the capability to attach automation events to a Transaction.
+iOS 17.2 introduced the capability to attach automation events to a Transaction. Relevant info about a Transaction can be captured, including:
+1. Transaction
+2. Card or Pass (e.g. `Apple Card`)
+3. Merchant (e.g. `Whole Foods Market`)
+5. Amount (e.g. `$32.04`)
+6. Name
 
-This can be used to supplement a budgeting application and keep a running transaction log, which can be useful for applications that don't directly support integration.
+You can also include identifying metadata such as:
+1. Current Date
+2. Device Details
+Device Detail
+OS
+Device Type
+Device hostname
+Name
+
+When used in concert, this information can be captured and used to generate a running transaction log. This information can supplement a budgeting application with "manual" entry for applications that may not support a direct integration, such as the Apple Card.
 
 ## Configure the iOS transaction automation
 Open *Shortcuts* > Automation > *+* to add new
